@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "package": "software.tachyon.starfruit.mixin",
+  "compatibilityLevel": "JAVA_14",
+  "mixins": [],
+  "client": [
+    "client.MinecraftClientMixin",
+    "client.MinecraftClientInterfaceMixin",
+    "client.PlayerInventoryMixin",
+    "client.AbstractClientPlayerEntityMixin",
+    "gui.BossBarHudMixin",
+    "gui.BossBarHudMixinInterface",
+    "gui.ChatHudMixin",
+    "gui.ChatScreenInterfaceMixin",
+    "gui.InGameGUIMixin",
+    "gui.TitleScreenMixin",
+    "gui.TextRendererMixin",
+    "entity.LivingEntityMixin",
+    "client.KeyboardMixin",
+    "world.GameRendererMixin",
+    "world.DimensionMixin",
+    "world.EntityRendererMixin",
+    "world.GameRendererMixin",
+    "world.WorldRendererMixin",
+    "network.ClientPlayNetworkHandlerMixin",
+    "network.NetworkThreadUtilsMixin",
+    "network.EntityVelocityUpdateS2CPacketMixin",
+    "network.InventoryS2CPacketMixin",
+    "network.PlayerMoveC2SPacketMixin",
+    "network.GuiSlotUpdateS2CPacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
